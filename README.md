@@ -1,16 +1,54 @@
 # Dashboard Notes Étudiants
 
-Ce projet contient une interface HTML/JS permettant :
-- d’ajouter des notes
-- de calculer la moyenne générale
-- d’afficher la moyenne par matière
-- de calculer le taux de réussite
+Ce projet est un mini-projet qui combine *HTML, JavaScript* et *Power BI* pour la gestion des notes des étudiants.
 
-Une intégration Power BI est ajoutée via un iframe.
+## 📝 Description du projet
 
-## Comment exécuter ?
-1. Télécharger le projet
-2. Ouvrir le fichier index.html dans le navigateur
+Le projet permet de :
 
-## Auteur
-Nouha Kadidi – Mzoughi Wejdeene 2025
+* Ajouter les notes des étudiants par matière.
+* Calculer automatiquement :
+
+  * La moyenne générale.
+  * La moyenne par matière.
+  * Le taux de réussite.
+* Afficher des graphiques interactifs avec *Power BI* intégrés dans le front-end via un iframe.
+* Visualiser les statistiques et tableaux de manière claire et ergonomique.
+
+---
+
+## 📂 Structure du projet
+/projet-dashboard-notes
+│
+├─ activité8.html
+└─ README.md
+
+## 🚀 Comment exécuter ?
+
+1. Télécharger ou cloner le projet :
+
+   
+   git clone https://github.com/ton-utilisateur/nom-du-depot.git
+   
+2. Ouvrir le fichier activité8.html dans un navigateur.
+3. Ajouter des notes via le formulaire et visualiser les statistiques.
+4. Les graphiques Power BI apparaissent directement dans le tableau de bord via l'iframe intégré.
+
+## 🔗 Power BI
+
+Le projet inclut un rapport Power BI intégré avec iframe:
+<iframe title="projet" width="600" height="373.5" 
+src="https://app.powerbi.com/view?r=eyJrIjoiMDI4NTk1OTYtNDJjMC00OWZlLWEwZGMtODVmMmU2MTc2ODhlIiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" 
+frameborder="0" allowFullScreen="true"></iframe>
+## 👩‍💻 Auteur
+
+* *Nom* : Nouha Kadidi et mzoughi wejden
+* *Année* : 2025
+* *Projet* : Mini-projet gestion des notes étudiants
+
+## 💡 Améliorations futures
+
+* Ajouter la possibilité de supprimer ou modifier une note.
+* Ajouter un login pour différents utilisateurs (admin, professeur).
+* Ajouter des filtres Power BI pour sélectionner la matière ou l’étudiant.
+* Créer un design responsive complet pour mobile et tablette.
