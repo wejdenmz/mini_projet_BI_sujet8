@@ -19,9 +19,12 @@ Le projet permet de :
 
 ## 📂 Structure du projet
 /projet-dashboard-notes
-│
+││
 ├─ activité8.html
+├─ rapport_mini_projet_activité8.pdf
+├─analyse et visualisation des notes des etudiants.pdf
 └─ README.md
+
 
 ## 🚀 Comment exécuter ?
 
